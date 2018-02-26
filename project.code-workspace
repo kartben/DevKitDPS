@@ -1,0 +1,10 @@
+{
+    "folders": [
+        {
+            "path": "Device"
+        }
+    ],
+    "settings": {
+        "IoTDev.DevicePath": "Device"
+    }
+}
