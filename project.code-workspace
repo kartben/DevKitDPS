@@ -5,6 +5,6 @@
         }
     ],
     "settings": {
-        "IoTDev.DevicePath": "Device"
+        "IoTWorkbench.DevicePath": "Device"
     }
 }
