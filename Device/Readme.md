@@ -1,16 +1,3 @@
-# DevKitDPS
+# Use Azure IoT Hub Device Provisioning Service auto-provisioning to register the MXChip IoT DevKit with IoT Hub
 
-## Steps to start
-
-1. Setup development environment by following [Get Started](https://microsoft.github.io/azure-iot-developer-kit/docs/get-started/)
-2. Open VS Code
-3. Press **F1** or **Ctrl + Shift + P** - `IoT Workbench: Examples` and select DevKit_DPS
-
-## Setup DPS
-Setup DPS environment by following [DPS](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-connect-mxchip-iot-devkit)
-
-## Upload Arduino Code to DevKit
-
-1. Connect your DevKit to your machine.
-2. Press **F1** or **Ctrl + Shift + P** in Visual Studio Code - **IoT Workbench:Device** and click **Device Upload**.
-3. Wait for arduino code uploading.
+Please follow the [guide](https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/iot-devkit/devkit_dps.md) to run this example in IoT Workbench.
