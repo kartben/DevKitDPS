@@ -9,12 +9,11 @@
 #include "utility.h"
 
 // Input DPS instance info
-char* Global_Device_Endpoint = "[Global_Device_Endpoint]";
-char* ID_Scope = "[ID_Scope]";
+static const char* Global_Device_Endpoint = "[Global_Device_Endpoint]";
+static const char* ID_Scope = "[ID_Scope]";
 
 // Input your preferrred registrationId and only alphanumeric, lowercase, and hyphen are supported with maximum 128 characters long.
-// If you leave it blank, one registrationId would be auto-generated based on MAC address and firmware version on your DevKit.
-char* registrationId = "";
+static const char* registrationId = "[registrationId]";
 
 // Indicate whether WiFi is ready
 static bool hasWifi = false;
